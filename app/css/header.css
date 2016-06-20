@@ -1,0 +1,102 @@
+
+@charset 'utf-8';
+.head{
+	width: 100%;
+	background-color: #fff;
+	height: 100px;
+}
+.head .img{
+	width: 215px;
+	height: 60px;
+}
+.img,.person{
+	float: left;
+}
+.head .img img{
+	width: 215px;
+	height: 60px;
+	margin-left: 5px;
+}
+.head .person{
+	margin-left: 5px;
+}
+.head .person .lei{
+	margin-top:15px;
+}
+.head .person .lei strong{
+	font-size: 12px;
+	color: #000000;
+}
+.head .person .lei .qqh{
+	color: #000000;
+}
+.head .person .lei .caret{
+	color: #8F8F8F;
+}
+.head .person ul{
+	text-align: center;
+}
+.head .person ul li{
+	float: left;
+	margin-left: 2px;
+	font-size: 12px;
+}
+.head .person ul li:hover{
+	text-decoration: underline;
+}
+.head .other{
+	background-image: url('../images/top_bg1e9c5d.jpg');
+	width: 486px;
+	height: 66px;
+	float: right;
+	margin-right: -23px;
+	position: relative;
+}
+.head .other a{
+	font-size: 12px;
+	margin-right: 5px;
+}
+.head .other #sj{
+	width: 16px;
+	height: 16px;
+	background-image: url('../images/icon_sendtomobile1e9c5d.png');
+	overflow: hidden;
+	background-repeat: no-repeat;
+	display: block;
+	background-position:-125px 0;
+	float: left;
+	margin-left: 285px;
+	margin-top: 15px;
+}
+.head .other span{
+	float: left;
+	display: block;
+	margin-top: 10px;
+}
+.head .other input{
+	width: 278px;
+	height: 20px;
+	border: 1px solid#BBBBBB;
+	outline: none;
+	position: absolute;
+	bottom: 5px;
+	right: 30px;
+	padding-left: 25px;
+	font-size: 12px;
+}
+.head .other #ss{
+	width: 18px;
+    height: 16px;
+    position: absolute;
+    bottom: 8px;
+    right: 290px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/smartsearch1e9c5d.png) no-repeat;
+}
+.head .other .caret{
+	position: absolute;
+	bottom: 12px;
+	right: 45px;
+	color: #9A9A9A;
+}
